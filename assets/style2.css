@@ -309,4 +309,22 @@ footer {
     bottom: 0;
     margin: 0 auto;
 }
+button {
+    display: ruby;
+    color: gold;
+    font-size: 18px;
+}
 
+
+
+/* BELOW IS WORMHOLE */
+
+#wormholeWelcome {
+    margin: auto;
+    padding: 20;
+    border: solid;
+    background-color: aliceblue;
+    height: 380px;
+    width: 500px;
+  
+}

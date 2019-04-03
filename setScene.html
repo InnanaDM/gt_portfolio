@@ -3,27 +3,29 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Wormhole</title>
+    <title>Set Scene</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/style2.css">
     <script src="main.js"></script>
 </head>
 <body>
     <div id="wormhole">
-        <h2>YOU MUST TAKE A WALK TO ACCESS THE WORMHOLE.</h2>
-        <p>To access the Wormhole, you must take a walk.</p>
+        <h2>IMAGINE...</h2>
+        <p>You wake up, in your bed. The sun is beaming through your window. It is a beautiful day. You decide to take a walk. </p>
 
-        <button onclick="takeWalk()">Take a walk</button>
-        <button onclick="goBack()">Leave Wormhole</button>
+        <button onclick="scene1()">Start Walk</button>
+        <button onclick="port()">Back to Portfolio</button>
+       
     
     
     </div>
 </body>
 <script>
-function takeWalk() {
-  location.replace("setScene.html")
+
+function scene1() {
+  location.replace("scene1.html")
 }
-function goBack() {
+function port() {
   location.replace("portfolio2.html")
 }
 </script>

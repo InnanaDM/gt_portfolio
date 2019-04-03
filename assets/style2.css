@@ -311,15 +311,24 @@ footer {
 }
 button {
     display: ruby;
-    color: gold;
+    color: black;
     font-size: 18px;
+    background-color: gold;
+}
+
+button hover {
+    color: aliceblue;
+}
+
+.strong {
+    font-weight: bolder;
 }
 
 
 
 /* BELOW IS WORMHOLE */
 
-#wormholeWelcome {
+#wormhole {
     margin: auto;
     padding: 20;
     border: solid;

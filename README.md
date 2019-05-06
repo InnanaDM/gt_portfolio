@@ -1,2 +1,3 @@
 # gt_portfolio
-HW1 portfolio
+
+okay need to make this thing REAL

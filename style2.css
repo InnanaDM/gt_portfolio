@@ -1,4 +1,12 @@
 /* this css works */
+a {
+  color: black;
+}
+/* connect with me and check out on about me/index */
+a:hover { 
+  background-color: yellow;
+}
+
 html {
   margin-top: 0;
   padding-top: 0;

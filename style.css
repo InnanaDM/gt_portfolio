@@ -45,39 +45,41 @@
       background-color: aliceblue;
       margin: 48px;
       padding: 30px;
-  }
-
-  /* ?who am i text on about me/index */
-  h2#WAI {
-    text-align: center;
-    padding-bottom: 50px;
-    font-weight: 600;
-  }
-
-  /* ?this aligns the idm img and text inside div.content on index */
-div.bio {
-    text-align: center;
-}
-
-/* ?text under idm img */
-p#indexBio {
-    font-weight: 400;
-    font-size: 22px;
-}
-
+    }
+    
+    /* ?who am i text on about me/index */
+    h2#WAI {
+        text-align: center;
+        padding-bottom: 50px;
+        font-weight: 600;
+    }
+    
+    /* ?this aligns the idm img and text inside div.content on index */
+    div.bio {
+        text-align: center;
+    }
+    
+    /* ?text under idm img on about/index */
+    p#indexBio {
+        font-weight: 400;
+        font-size: 22px;
+    }
+    /* ?check out my portfolio text in bottom of bio box index */
+    p.strong {
+        font-size: 20px;
+        font-weight: 700;
+    
+    }
+    
+/* ?footer at bottom of page that holds copyright */
 footer.page-footer {
     background: seashell;
 }
 
+/* ?copyright text inside of footer */
 p.footertext {
     color: goldenrod;
     text-align: center;
-}
-
-p.strong {
-    font-size: 20px;
-    font-weight: 700;
-
 }
   
   

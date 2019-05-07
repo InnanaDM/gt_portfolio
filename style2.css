@@ -1,11 +1,43 @@
 /* this css works */
-a {
+/* connect with me and check out on about me/index */
+  
+
+  /* !!!css for main page responsive!!! */
+
+  /* ? innana dabreau top left nav bar */
+a.brand-logo {
+  font-size: 40px;
+  color: black;
+  font-family: fantasy;
+}
+
+/* ?TOPLEFT NAVBAR LINKS */
+a.topLeft {
   color: black;
 }
-/* connect with me and check out on about me/index */
-a:hover { 
-  background-color: yellow;
+
+div.nav-wrapper {
+  background: aliceblue;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 
 html {
   margin-top: 0;
@@ -35,12 +67,12 @@ header {
   height: 10%;
 }
 
-nav {
+/* nav {
   width: 100%;
   height: 10%;
   border-bottom: 2px solid gold;
   background-color: aliceblue;
-}
+} */
 
 .nav {
   width: 960px;
@@ -52,14 +84,14 @@ nav {
   margin: 0 auto;
 }
 
-#idm {
+/* #idm {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: left;
   color: black;
   margin: 0px 0px 0px 0px;
   padding: 10px 15px 10px 15px;
   height: 150px;
-}
+} */
 
 .navlist {
   display: flex;
@@ -147,9 +179,7 @@ footer {
 }
 
 @media only screen and (max-width: 640px) {
-    * {
-    background-color: thistle;
-    }
+   
     
     .navset {
         width: 100%;
@@ -202,9 +232,7 @@ footer {
         width: 100%;
       
     }
-    * {
-        background-color: aquamarine;
-    }
+    
   }
 
   @media only screen and (max-width: 480px) {
@@ -212,10 +240,9 @@ footer {
     [class*="col-"] {
       width: 100%;
     }
-    * {
-        background-color: blue;
-    }
+    
   }
+  
   @media only screen and (max-width: 980px) {
     /* For mobile phones: */
     [class*="col-"] {

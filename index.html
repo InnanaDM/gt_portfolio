@@ -4,11 +4,19 @@
 <head>
     <meta charset="utf-8">
     <title>IDM Portfolio</title>
-    <link href="assets/style2.css" type="text/css" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+              
+    <link href="style.css" type="text/css" rel="stylesheet">
+    
 </head>
 
 <body>
-    <nav>
+
+    <!-- <nav>
         <div class="nav">
             <div id="idm">
                 <h1>Innana D'Abreau McClain<h1>
@@ -21,18 +29,31 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <nav>
+            <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo">Innana D'Abreau</a>
+             
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="topLeft" href="index.html">About Me</a></li>
+                <li><a class="topLeft" href="contact2.html">Contact</a></li>
+                <li><a class="topLeft" href="portfolio2.html">Portfolio</a></li>
+            </ul>
+        
+            </div>
+          </nav>
+   
+    <div class="container">
     <div class="wrap">
         <div class="wrap2">
             <div class="content">
-                <header>
-                    <h2>About Me</h2>
-                </header>
+                <!-- <header> -->
+                    <h2 id="WAI">WHO AM I </h2>
+                <!-- </header> -->
                 <div class="bio">
-                    <img class="pic1"
-                        src="idm.jpg"
-                        alt="idm" />
-                    <p>My name is Innana. I am fun, energetic, and eager to learn new things. Currently, I am skilled in
+                        <img class="idmIndex" width="250" src="idm.jpg">
+
+                    <p id="indexBio">My name is Innana. I am fun, energetic, and eager to learn new things. Currently, I am skilled in
                         Adobe Illustrator, Photoshop, After Effects, etc. I customize shoes, belts, handbags, furniture,
                         and much more! I absolutely love to travel and have conversation with new people. The Earth is a
                         complex, beautiful place and I want to experience all its wonders.
@@ -45,9 +66,11 @@
             </div>
         </div>
     </div>
-    <footer>
-        <p>COPYRIGHT &#4488; &#0036;</p>
-    </footer>
+</div>
+        <footer class="page-footer">
+        
+            <p class="footerText">COPYRIGHT &#4488; &#0036;</p>
+        </footer>
 
 
 </body>

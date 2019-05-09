@@ -88,10 +88,37 @@ p.footertext {
 
 /* !css for portfolio page! */
 
+/* ?text on port page that says PORTFOLIO */
+h2#portfolio {
+    font-family: fantasy;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+div#wormholeButt {
+    position: absolute;
+    right: 400px;
+    top: 149px;
+}
+button {
+    height: 45px;
+}
+
+/* ?text on port page CUSTOM SHOES */
+p#customs {
+    font-size: 50px;
+    font-weight: 800px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: fantasy;
+}
+
 /* ?materialize card holds port pics and info/links */
 div.card.small {
-    width: 320px;
-
+    width: 310px;
+    margin: 20px;
+    margin-top: 40px;
 }
 /* ?img inside of card.small port page */
 img {
@@ -102,6 +129,7 @@ img {
 }
 /* ?project title/ text under imgs on port page */
 p.proTit {
-    font-size: 34px;
-    font-weight: 600; 
+    font-size: 24px;
+    font-weight: 400; 
+  
 }

@@ -1,5 +1,5 @@
 
-  /* !!!css for main page responsive!!! */
+  /* !!!CSS ABOUT/INDEX PAGE!!! */
 
   /* ? INNANA D'ABREAU top left nav bar */
   a.brand-logo {
@@ -86,7 +86,7 @@ p.footertext {
     /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 
-/* !css for portfolio page! */
+/* !CSS PORTFOLIO HTML!   */
 
 /* ?text on port page that says PORTFOLIO */
 h2#portfolio {
@@ -95,21 +95,46 @@ h2#portfolio {
     margin-bottom: 20px
 }
 
+/* ?div that wormhole button is in,port page, SETS POSITION  */
 div#wormholeButt {
     position: absolute;
     right: 400px;
-    top: 149px;
-}
-button {
-    height: 45px;
+    top: 170px;
 }
 
-/* ?text on port page CUSTOM SHOES */
-p#customs {
+/* ?ENTER THE WORMHOLE button on port page */
+button {
+    height: 45px;
+    background-color: #004A7F;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+}
+/* ?chrome,safari WEBKIT creates glowing button */
+@-webkit-keyframes glowing {
+    0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+    50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+    100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  }
+
+/* ?text on port page that says CUSTOM SHOES, ARTWORK, WEBSITES */
+p.portSection {
     font-size: 50px;
     font-weight: 800px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
     font-family: fantasy;
 }
@@ -119,6 +144,7 @@ div.card.small {
     width: 310px;
     margin: 20px;
     margin-top: 40px;
+    height: 311px;
 }
 /* ?img inside of card.small port page */
 img {

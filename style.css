@@ -84,3 +84,24 @@ p.footertext {
 }
 
     /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+/* !css for portfolio page! */
+
+/* ?materialize card holds port pics and info/links */
+div.card.small {
+    width: 320px;
+
+}
+/* ?img inside of card.small port page */
+img {
+    width: 320px;
+    height: 180px;
+
+
+}
+/* ?project title/ text under imgs on port page */
+p.proTit {
+    font-size: 34px;
+    font-weight: 600; 
+}

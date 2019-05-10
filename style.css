@@ -137,6 +137,7 @@ p.portSection {
     margin-top: 50px;
     margin-bottom: 20px;
     font-family: fantasy;
+    text-decoration: underline;
 }
 
 /* ?materialize card holds port pics and info/links */

@@ -55,6 +55,7 @@ h1 {
   font-size: 3rem;
   font-family: fantasy;
   margin-top: 77px;
+  
 }
 
 h2 {
@@ -149,6 +150,12 @@ header {
 .content {
   background-color: white;
   padding: 11px;
+}
+/* !remove */
+h1.UC {
+  font-size: 80px;
+  color: red;
+  text-align: center;
 }
 
 .bio {

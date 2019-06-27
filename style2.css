@@ -185,6 +185,8 @@ footer {
   vertical-align: middle;
 }
 
+
+
 @media only screen and (max-width: 640px) {
    
     
@@ -256,3 +258,172 @@ footer {
       width: 100%;
     }
   }
+
+
+/* !CAME FROM STYLE.CSS MOVED INTO STYLE2 */
+  /* !!!CSS ABOUT/INDEX PAGE!!! */
+
+  /* ? INNANA D'ABREAU top left nav bar */
+  a.brand-logo {
+    margin-top: 15px;
+  font-size: 50px;
+  font-weight: 900, bold;
+  
+  color: black;
+  font-family: fantasy;
+}
+a.brand-logo:hover {
+    color: goldenrod;
+}
+
+/* ?TOPLEFT NAVBAR LINKS */
+a.topLeft {
+  color: black;
+  font-size: 28px;
+  font-family: fantasy;
+  margin: 15px;
+}
+a.topLeft:hover {
+    color: goldenrod;
+}
+
+/* ?actual navbar */
+div.nav-wrapper {
+  background: seashell;
+  padding: 10px;
+  height: 90px;
+}
+
+/* ?color behind content in container ie background color */
+body {
+    background: bisque;
+}
+
+/* ?ice blue box that holds page content */
+div.content {
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: goldenrod;
+    background-color: aliceblue;
+    margin: 48px;
+    padding: 30px;
+  }
+  
+  /* ?who am i text on about me/index */
+  h2#WAI {
+      text-align: center;
+      padding-bottom: 50px;
+      font-weight: 600;
+  }
+  
+  /* ?this aligns the idm img and text inside div.content on index */
+  div.bio {
+      text-align: center;
+  }
+  
+  /* ?text under idm img on about/index */
+  p#indexBio {
+      font-weight: 400;
+      font-size: 22px;
+  }
+  /* ?check out my portfolio text in bottom of bio box index */
+  p.strong {
+      font-size: 20px;
+      font-weight: 700;
+  
+  }
+  
+/* ?footer at bottom of page that holds copyright */
+footer.page-footer {
+  background: seashell;
+}
+
+/* ?copyright text inside of footer */
+p.footertext {
+  color: goldenrod;
+  text-align: center;
+}
+
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+/* !CSS PORTFOLIO HTML!   */
+
+/* ?text on port page that says PORTFOLIO */
+h2#portfolio {
+  font-family: fantasy;
+  font-weight: 600;
+  margin-bottom: 20px
+}
+
+/* ?div that wormhole button is in,port page, SETS POSITION  */
+div#wormholeButt {
+  position: absolute;
+  right: 400px;
+  top: 170px;
+}
+
+/* ?ENTER THE WORMHOLE button on port page */
+button {
+  height: 45px;
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+/* ?chrome,safari WEBKIT creates glowing button */
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+/* ?text on port page that says CUSTOM SHOES, ARTWORK, WEBSITES */
+p.portSection {
+  font-size: 50px;
+  font-weight: 800px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: fantasy;
+  text-decoration: underline;
+}
+
+/* ?materialize card holds port pics and info/links */
+div.card.small {
+  width: 310px;
+  margin: 20px;
+  margin-top: 40px;
+  height: 311px;
+}
+/* ?img inside of card.small port page */
+img {
+  width: 320px;
+  height: 180px;
+
+
+}
+/* ?project title/ text under imgs on port page */
+p.proTit {
+  font-size: 22px;
+  font-weight: 400; 
+
+}
+
+
+.fSA {
+  font-size: 15px;
+}
